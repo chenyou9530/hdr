@@ -28,7 +28,7 @@ p {
 }
 
 img {
-    float: left;
+    margin: 0 auto; /* 让图片水平居中 */
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -42,7 +42,7 @@ img {
 
 .footer-content img {
     max-width: 100%; /* Adjust the width of the image as needed */
-    margin-right: 20px; /* Add some space between the image and text */
+
 }
 
 .text-content {
@@ -55,7 +55,7 @@ img {
     margin-bottom: 0; /* Remove default bottom margin of paragraph */
 }
 .footer-content .copyright {
-    font-size: 0.8em; /* 調整版權文字的大小 */
+    font-size: 1.6em; /* 調整版權文字的大小 */
     color: #999; /* 調整版權文字的顏色 */
 }
 /* 根据屏幕尺寸调整 footer 样式 */
