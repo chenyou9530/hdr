@@ -1,0 +1,66 @@
+body {
+    font-family: "微軟正黑體", sans-serif;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 20px;
+    color: #ff5555;
+}
+
+p {
+    font-size: 1.6em;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+img {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.footer-content {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.footer-content img {
+    max-width: 100%; /* Adjust the width of the image as needed */
+    margin-right: 20px; /* Add some space between the image and text */
+}
+
+.text-content {
+    flex-grow: 1; /* Allow the text content to grow and fill the available space */
+}
+
+.text-content p {
+    
+    margin-top: 0; /* Remove default top margin of paragraph */
+    margin-bottom: 0; /* Remove default bottom margin of paragraph */
+}
+.footer-content .copyright {
+    font-size: 0.8em; /* 調整版權文字的大小 */
+    color: #999; /* 調整版權文字的顏色 */
+}
+/* 根据屏幕尺寸调整 footer 样式 */
+@media (min-width: 768px) {
+    footer {
+        margin-top: 20px;
+    }
+}
